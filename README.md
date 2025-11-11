@@ -1,6 +1,9 @@
 # NFT Image Tools
 
-Python and Bash tools to process NFT images in bulk.
+This repository provides easy-to-use Python and Bash scripts to process NFT images in bulk. 
+With these tools, you can clean up white edges, enhance transparency, and add custom backgrounds 
+to your NFT artwork, making them ready for professional presentation or marketplaces. 
+Before-and-after examples are included to clearly demonstrate the effect of the scripts.
 
 ## Features
 - Clean white/halo edges of NFT images
