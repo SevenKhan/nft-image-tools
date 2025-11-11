@@ -1,18 +1,31 @@
+# NFT Image Tools
+
+Python and Bash tools to process NFT images in bulk.
+
+## Features
+- Clean white/halo edges of NFT images
+- Make very light colors inside images transparent
+- Add background colors (red, gradient, etc.)
+
+## Usage
+1. Place your NFT images in `examples/before/`
+2. Run scripts from the `scripts/` folder
+   - Python: `python3 scripts/remove_inner_whites.py`
+   - Bash: `bash scripts/final_clean.sh`
+3. Processed images will appear in `examples/after/` and `examples/after_red/`
+
 ## Example NFT Images
 
 ### Before processing
-Here are some examples of the original NFT images:
-
 ![Before 1](examples/before/sample1.png)
 ![Before 2](examples/before/sample2.png)
 
 ### After processing
-Here are the results after running the scripts:
-
 ![After 1](examples/after/sample1.png)
 ![After 2](examples/after/sample2.png)
 
 ### Demo GIF (optional)
-If you want to show multiple images in one preview:
+![Demo](examples/demo.gif)
 
-![Demo GIF](examples/demo.gif)
+## License
+MIT
